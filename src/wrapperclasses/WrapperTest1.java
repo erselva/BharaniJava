@@ -5,7 +5,7 @@ public class WrapperTest1 {
     public static void main(String[] args) {
 
         Integer integer = Integer.valueOf("10");
-        System.out.println("Obj value = " + integer.toString());
+        System.out.println("Obj value = " + integer);
 
         int value = integer.intValue();
         System.out.println(" int value = " + value);
@@ -26,5 +26,6 @@ public class WrapperTest1 {
 
         Boolean booObj2 = Boolean.valueOf(boo2);
         System.out.println("booObj2 = " + booObj2);
+        System.out.println("booObj2 value= " + booObj2.booleanValue());
     }
 }
