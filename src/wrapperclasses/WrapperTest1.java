@@ -13,6 +13,9 @@ public class WrapperTest1 {
         int value1 = Integer.parseInt("12");
         System.out.println(" int value1 = " + value1);
 
+        Integer int2 = 12; //Autoboxing
+        int int3 = int2; //Unboxing
+
         Integer int1 = 15; //Autoboxing
         System.out.println(" int value1 = " + int1);
 
@@ -27,5 +30,7 @@ public class WrapperTest1 {
         Boolean booObj2 = Boolean.valueOf(boo2);
         System.out.println("booObj2 = " + booObj2);
         System.out.println("booObj2 value= " + booObj2.booleanValue());
+
+
     }
 }
