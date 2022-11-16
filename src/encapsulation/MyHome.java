@@ -13,6 +13,7 @@ public class MyHome {
         {
             int temp = 0; //local variable
         }
+        //sofa = "mysofa";
         System.out.println("sofa=" + sofa);
         //System.out.println("a=" + temp);
     }
@@ -38,7 +39,9 @@ public class MyHome {
 
         Book book = new Book();
         book.setId(1250);
+        book.setTitle("my title");
         System.out.println("id=" + book.getId());
+        System.out.println("title=" + book.getTitle());
         book.borrow();
     }
 }
