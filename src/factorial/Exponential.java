@@ -30,6 +30,7 @@ public class Exponential {
         }
 
 
+
     }
 
     public double calculate(int x) {
